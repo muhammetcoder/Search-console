@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/837be0c474.js" crossorigin="anonymous"></script>
+</head>
+
+<script src="script.js"></script>
+
+<body>
+    <h1 class="baslik">Search bar The Eles</h1>
+    <div class="icerik">
+        <div class="box">
+            <input placeholder="Gooogle Ara" class="input" type="text" id="searchInput" name="searchInput"
+                onkeydown="if (event.key === 'Enter') googleSearch()">
+            <button class="btn" onclick="googleSearch()"><i class="fa-brands fa-searchengin"></i></button>
+        </div>
+        <div class="favori">
+            <div class="boxs">
+                Lorem, ipsum.
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
